@@ -23,23 +23,23 @@ And each is able to be unzipped as a "rvctools" folder. All toolboxes are freely
 
 ```
 
-### Installing
+### Add toolboxes to your MATLAB path
 
-A step by step series of examples that tell you how to get a development env running
+After downloading both toolboxes, robot and vision, you can use any unarchiving tool to unpack the files that you downloaded.(If you downloaded zip files.)
 
-Say what the step will be
+To add toolbox to your MATLAB path, you can execute the following command to link directory to MATLAB path:
+```
+>> addpath RVCDIR;
+```
+where RVCDIR is the full pathname of the directory where you unpacked the top-level toolbox directory rvctools. For example, for me, it is "Users/zhiyuwang/Desktop/Robotics/rvctools" on Mac OS. This command works on both Linux and Windows(8+).
+
+And execute
 
 ```
-Give the example
+>> startup_rvc
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+If you open the rvctools folder you got from unzip compressed files, you could find a startup_rvc.m MATLAB file in it. This command is actually executing this file, and finishing all the set-ups and configurations for you.
 
 ## Running the tests
 
