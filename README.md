@@ -1,6 +1,7 @@
 # Robot-arm-Matlab-simulation & Tangram-recognition
 
-Hi, there. I am Zhiyu Wang, this project is graduation design for my bachlor's degree in Automation. It is finished at May, 2017, which is about 2 years ago. However, recently, I realized I didn't collect the source code well. Then I decided to use some of my spare time to recollect and rewrite some of the Matlab source code, and also write a readable introduction to this interesting project. Hopefully everyone could get what they want from it.<br />
+Hi, there. I am Zhiyu Wang, this project is graduation design for my bachlor's degree in Automation. <br />
+It is finished at May, 2017, which is about 2 years ago. However, recently, I realized I didn't collect the source code well. Then I decided to use some of my spare time to recollect and rewrite some of the Matlab source code, and also write a readable introduction to this interesting project. Hopefully everyone could get what they want from it.<br />
 From the title, it could be told obviously that this project consists of 2 parts, robot arm simulation, and multi-colored tangram recognition. So 2 fields are covered here, robot arm control and simulation and also computer vision. Specially, I constructed a 6 axis robot arm module by using toolboxes released by Prof.Peter Corke. Besides that, the recognition part is accomplished with a traditional ROI extraction and analysis way. Basically, trangrams are recognized by their color information, also I am working on solve the problem with a ML way recently.<br />
 Now let's officially start introducing.
 
@@ -14,7 +15,12 @@ Also all the information could also be found at Prof.Peter Corke's personal webs
 Installing the Toolboxes:<br />
 
 ```
-Give examples
+Downloading robot toolbox, 10.3.1 most recent version, and vision toolbox, 4.3 most recent version<br />
+The toolboxes are each packaged in a single zip format file. And both are able to be unzipped as rvctools folders.<br />
+you can find both on 
+<p align="center">
+  https://www.petercorke.com/RVC
+</p>
 ```
 
 ### Installing
