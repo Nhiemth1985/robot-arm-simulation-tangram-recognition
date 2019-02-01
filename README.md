@@ -16,8 +16,8 @@ Installing the Toolboxes:<br />
 
 ```
 Downloading robot toolbox, 10.3.1 most recent version, and vision toolbox, 4.3 most recent version.
-The toolboxes are each packaged in a single zip format file. And both are able to be unzipped as rvctools folders.
-you can find both on 
+The toolboxes are each packaged in a single zip format file.
+And each is able to be unzipped as a "rvctools" folder. All toolboxes are freely available from:
 
                                 https://www.petercorke.com/RVC
 
