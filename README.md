@@ -15,12 +15,12 @@ Also all the information could also be found at Prof.Peter Corke's personal webs
 Installing the Toolboxes:<br />
 
 ```
-Downloading robot toolbox, 10.3.1 most recent version, and vision toolbox, 4.3 most recent version<br />
-The toolboxes are each packaged in a single zip format file. And both are able to be unzipped as rvctools folders.<br />
+Downloading robot toolbox, 10.3.1 most recent version, and vision toolbox, 4.3 most recent version.
+The toolboxes are each packaged in a single zip format file. And both are able to be unzipped as rvctools folders.
 you can find both on 
-<p align="center">
-  https://www.petercorke.com/RVC
-</p>
+
+                                https://www.petercorke.com/RVC
+
 ```
 
 ### Installing
