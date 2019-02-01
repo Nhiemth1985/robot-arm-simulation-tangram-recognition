@@ -1,7 +1,7 @@
 clc;
 clear;
 
-t=0:0.2:5;%时间常数的选择，用于后面的插值处理。这里的选择为0至5秒，每0.2秒计算一次。
+t=0:0.2:5;
 S=[3 3];
 E=[-4 5];
 L(1) = Link([0,4,0,pi/2,0]);%%第一个关节DH
@@ -13,11 +13,13 @@ L(6) = Link([0 0.8 0 0 0]);%%关节6DH
 kuka6link = SerialLink(L, 'name', 'kuka6link');%将关节串联后取名为kuka6link
 kuka6link.base=transl(0,0,2);
 
+
+
 PZ=[5 0 5];
 TZ=transl(PZ)*trotx(pi);%TS为起始位置PS的坐标转移矩阵。
 qz=kuka6link.ikine6s(TZ);%关节角qs
 R=[0 0 0 0 0 pi/2];
-%kuka6link.plot(qz);
+kuka6link.plot(qz);
 
 PS=[S(1) S(2) 1];
 PE=[E(1) E(2) 1];%place of end
@@ -48,15 +50,22 @@ plot(E(1),E(2),'wx');
 
 axis([-10 10 -10 10 0 10]);
 
-kuka6link.plot(Track1);
+for q1=Track1'
+    kuka6link.plot(q1');
+end
+
 rectangle('position',[S(1)-1,S(2)-1,2,2],'edgecolor','w');
 plot(S(1),S(2),'wo');
 plot(S(1),S(2),'wx');
 
 axis([-10 10 -10 10 0 10]);
-kuka6link.plot(Track2);
+for q2=Track2'
+    kuka6link.plot(q2');
+end
 axis([-10 10 -10 10 0 10]);
-kuka6link.plot(Track3);
+for q3=Track3'
+    kuka6link.plot(q3');
+end
 axis([-10 10 -10 10 0 10]);
 
 hold on
@@ -64,7 +73,9 @@ rectangle('position',[E(1)-1,E(2)-1,2,2],'edgecolor','r');
 plot(E(1),E(2),'ro');
 plot(E(1),E(2),'rx');
 
-kuka6link.plot(Track4);
+for q4=Track4'
+    kuka6link.plot(q4');
+end
 rectangle('position',[S(1)-1,S(2)-1,2,2]);
 plot(S(1),S(2),'go');
 plot(S(1),S(2),'gx');
