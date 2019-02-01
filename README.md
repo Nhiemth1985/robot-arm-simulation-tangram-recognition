@@ -6,12 +6,12 @@ Now let's officially start introducing.
 
 ## Getting Started
 
-Best reference for this project is the book written by Prof.Peter Corke, <Robotics, Vision and Control Fundamental algorithms in Matlab> https://www.amazon.com/Robotics-Vision-Control-Fundamental-Algorithms/dp/3642201431.<br />
+Best reference for this project is the book written by Prof.Peter Corke, <br /><Robotics, Vision and Control Fundamental algorithms in Matlab> https://www.amazon.com/Robotics-Vision-Control-Fundamental-Algorithms/dp/3642201431.<br />
 Also all the information could also be found at Prof.Peter Corke's personal website. http://petercorke.com/wordpress/.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Installing the Toolboxes:<br />
 
 ```
 Give examples
