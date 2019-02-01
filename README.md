@@ -6,7 +6,8 @@ Now let's officially start introducing.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Best reference for this project is the book written by Prof.Peter Corke, <Robotics, Vision and Control Fundamental algorithms in Matlab> https://www.amazon.com/Robotics-Vision-Control-Fundamental-Algorithms/dp/3642201431.
+Also all the information could also be found at Prof.Peter Corke's personal website. http://petercorke.com/wordpress/.
 
 ### Prerequisites
 
